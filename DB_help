@@ -1,0 +1,11 @@
+
+--BEGIN;
+--
+--DELETE FROM public.nps_sentiment_analysis_nw_complaints
+--WHERE DATE(modified_date) = '2025-09-10';
+
+--SELECT COUNT(*) 
+--FROM public.nps_sentiment_analysis_nw_complaints
+--WHERE DATE(modified_date) = '2025-09-10';
+
+COMMIT;
