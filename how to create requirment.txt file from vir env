@@ -1,0 +1,1 @@
+/persistent/insite_projects/true/email_automation/manual_handling/llamavenv/bin/python -m pip freeze > > /persistent/insite_projects/true/email_automation/manual_handling/llamavenv/requirements.txt
