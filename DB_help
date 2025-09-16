@@ -9,3 +9,9 @@
 --WHERE DATE(modified_date) = '2025-09-10';
 
 COMMIT;
+
+# to know if any word having in table name, and you want to know what will be the table name
+SELECT table_name
+FROM information_schema.tables
+WHERE table_schema = 'public'
+  AND table_name ILIKE '%contact%';
